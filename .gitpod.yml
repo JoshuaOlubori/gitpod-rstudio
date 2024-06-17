@@ -1,7 +1,7 @@
 tasks:
   - name: Install RStudio
     init: |
- # update indices
+      # update indices
       sudo apt update -qq
       # install two helper packages we need
       sudo apt install --no-install-recommends software-properties-common dirmngr
